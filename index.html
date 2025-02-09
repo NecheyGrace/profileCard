@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile Card</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="profile-card">
+      <!-- Profile Picture -->
+      <div class="profile-picture">
+        <img src="me.jpg" alt="Profile Picture" data-testid="profilePicture" />
+      </div>
+
+      <!-- Personal Information -->
+      <div class="personal-info">
+        <h1 data-testid="fullName">Amara Metu</h1>
+        <h2 data-testid="jobTitle">Software Engineer</h2>
+        <p data-testid="shortBio">
+          Amara Chinecherem Metu is a petroleum engineer, software developer,
+          and volunteer passionate about innovation and community impact. With a
+          strong background in engineering and technology, she builds scalable
+          solutions while mentoring aspiring tech talents. Beyond coding, she
+          excels in sales, fitness, and research, consistently pushing
+          boundaries in multiple fields. She is currently pursuing an MSc in
+          Chemical Engineering and actively participates in hackathons and tech
+          programs. Driven by a commitment to excellence and social impact, she
+          seeks to create solutions that bridge gaps and empower communities.
+        </p>
+        <p data-testid="currentLocation">
+          <i class="location-icon"></i>
+          Aba, Nigeria.
+        </p>
+        <p data-testid="emailAddress">
+          <i class="email-icon"></i>
+          nechemetu@gmail.com
+        </p>
+      </div>
+
+      <!-- Social Links -->
+      <div class="social-links" data-testid="socialLinks">
+        <a
+          href="https://www.linkedin.com/in/amara-metu-330261175/"
+          target="_blank"
+          >LinkedIn</a
+        >
+        <a href="https://github.com/NecheyGrace" target="_blank">GitHub</a>
+        <a href="https://twitter.com/@MetuNechey" target="_blank">Twitter</a>
+      </div>
+
+      <!-- UTC Time -->
+      <div class="utc-time">
+        <p>
+          Current UTC Time: <span data-testid="currentTimeUTC">Loading...</span>
+        </p>
+      </div>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
